@@ -1,0 +1,30 @@
+Hyago Philip Pereira Dos Santos
+
+git clone https://gitlab.com/mizael.cortez/curso-branchs-ifrn-ead.git
+
+
+-- arquivo criado
+
+git add .
+git commit -m "Primeiro commit"
+
+git checkout -b feature-1
+
+-- arquivo alterado
+
+git add .
+git commit -m "texto alterado"
+
+git checkout main
+
+-- arquivo alterado novamente
+
+git add .
+git commit -m "texto alterado novamente"
+
+git merge feature-1
+
+
+git checkout -b add-comandos
+
+
